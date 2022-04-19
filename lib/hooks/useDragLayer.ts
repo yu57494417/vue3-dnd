@@ -1,6 +1,6 @@
 import type { DragLayerMonitor } from '../types'
-import { useDragDropManager } from './useDragDropManager.js'
-import { useCollector } from './useCollector.js'
+import { useDragDropManager } from './useDragDropManager'
+import { useCollector } from './useCollector'
 import { computed, Ref, unref, watchEffect } from 'vue'
 
 /**

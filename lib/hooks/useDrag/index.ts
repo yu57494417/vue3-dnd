@@ -1,1 +1,1 @@
-export * from './useDrag.js'
+export * from './useDrag'

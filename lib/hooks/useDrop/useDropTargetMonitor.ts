@@ -1,6 +1,6 @@
 import { DropTargetMonitorImpl } from '../../internals'
 import type { DropTargetMonitor } from '../../types'
-import { useDragDropManager } from '../useDragDropManager.js'
+import { useDragDropManager } from '../useDragDropManager'
 import { computed, ComputedRef, unref } from 'vue'
 
 export function useDropTargetMonitor<O, R>(): ComputedRef<

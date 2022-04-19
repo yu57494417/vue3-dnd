@@ -1,7 +1,7 @@
-import type { Connector } from '../../internals/index.js'
-import type { DragSourceMonitor } from '../../types/index.js'
-import type { DragSourceHookSpec } from '../types.js'
-import { DragSourceImpl } from './DragSourceImpl.js'
+import type { Connector } from '../../internals/index'
+import type { DragSourceMonitor } from '../../types/index'
+import type { DragSourceHookSpec } from '../types'
+import { DragSourceImpl } from './DragSourceImpl'
 import { computed, Ref, unref, watchEffect } from 'vue'
 
 export function useDragSource<O, R, P>(

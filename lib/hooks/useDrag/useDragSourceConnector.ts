@@ -1,6 +1,6 @@
 import { SourceConnector } from '../../internals'
 import type { DragPreviewOptions, DragSourceOptions } from '../../types'
-import { useDragDropManager } from '../useDragDropManager.js'
+import { useDragDropManager } from '../useDragDropManager'
 import { computed, ComputedRef, Ref, unref, watchEffect } from 'vue'
 
 export function useDragSourceConnector(

@@ -1,6 +1,6 @@
 import type { Connector } from '../internals'
 import type { HandlerManager, MonitorEventEmitter } from '../types'
-import { useMonitorOutput } from './useMonitorOutput.js'
+import { useMonitorOutput } from './useMonitorOutput'
 import { Ref, unref } from 'vue'
 import { MaybeRef } from '../types/utils'
 

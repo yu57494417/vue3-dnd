@@ -1,4 +1,4 @@
-import type { FactoryOrInstance } from './types.js'
+import type { FactoryOrInstance } from './types'
 import { computed, ComputedRef } from 'vue'
 
 export function useOptionalFactory<T>(

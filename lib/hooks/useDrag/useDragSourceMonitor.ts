@@ -1,6 +1,6 @@
 import { DragSourceMonitorImpl } from '../../internals'
 import type { DragSourceMonitor } from '../../types'
-import { useDragDropManager } from '../useDragDropManager.js'
+import { useDragDropManager } from '../useDragDropManager'
 import { computed, ComputedRef, unref } from 'vue'
 
 export function useDragSourceMonitor<O, R>(): ComputedRef<

@@ -1,5 +1,5 @@
 import type { HandlerManager, MonitorEventEmitter } from '../types'
-import { useCollector } from './useCollector.js'
+import { useCollector } from './useCollector'
 import { Ref, unref, watchEffect } from 'vue'
 import { MaybeRef } from '../types/utils'
 
