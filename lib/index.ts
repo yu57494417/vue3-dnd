@@ -1,3 +1,4 @@
-export * from './types/index'
-export * from './core/index'
-export * from './hooks/index'
+export * from './types'
+export * from './core'
+export * from './hooks'
+export * from './components'
